@@ -75,6 +75,29 @@
         margin: 0px;
         color: black;
       }
+      .portofolio {
+      }
+
+      .portofolio h2 {
+        text-align: center;
+      }
+
+      .portofolio img {
+        width: 500px;
+        height: auto;
+        border-radius: 20px;
+      }
+
+      .flex-grid {
+        display: flex;
+        justify-content: center;
+      }
+
+      .flex-grid-item {
+        flex-shrink: 1;
+        margin: 15px;
+        flex-basis: 280px;
+      }
     </style>
   </head>
 
@@ -95,5 +118,33 @@
 
       <p class="paragraf">Apprentice Artist & Virtual Photographer</p>
     </header>
+
+    <section class="portofolio">
+      <h2>Portofolio</h2>
+
+      <div class="flex-grid">
+        <div class="flex-grid-item">
+          <img src="assets/image/porsche.jpg" />
+        </div>
+        <div class="flex-grid-item">
+          <img src="assets/image/r35.jpg" />
+        </div>
+        <div class="flex-grid-item">
+          <img src="assets/image/r33.jpg" />
+        </div>
+      </div>
+
+      <div class="flex-grid">
+        <div class="flex-grid-item">
+          <img src="assets/image/nsx.jpg" />
+        </div>
+        <div class="flex-grid-item">
+          <img src="assets/image/lca.jpg" />
+        </div>
+        <div class="flex-grid-item">
+          <img src="assets/image/Cyberpunk.jpg" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
