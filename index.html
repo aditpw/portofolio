@@ -75,7 +75,14 @@
         margin: 0px;
         color: black;
       }
+
+      .portofolio figure {
+        margin: 0;
+      }
+
       .portofolio {
+        margin: 50px;
+        font-family: "Archivo Narrow", sans-serif;
       }
 
       .portofolio h2 {
@@ -93,12 +100,22 @@
       .flex-grid {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
       }
 
       .flex-grid-item {
         flex-shrink: 1;
         margin: 15px;
         flex-basis: 280px;
+      }
+      .portofolio-item {
+      }
+
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        text-align: center;
       }
     </style>
   </head>
@@ -125,28 +142,58 @@
       <h2>Portofolio</h2>
 
       <div class="flex-grid">
+        
         <div class="flex-grid-item">
-          <img src="assets/image/porsche.jpg" alt="Porsche 911 Carreran S" />
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/porsche.jpg" alt="Porsche911" />
+            </figure>
+          </a>
         </div>
-        <div class="flex-grid-item">
-          <img src="assets/image/r35.jpg" alt="Nissan GTR R35 Slammed" />
-        </div>
-        <div class="flex-grid-item">
-          <img src="assets/image/r33.jpg" alt="Nissan Skyline R33 GT-R" />
-        </div>
-      </div>
 
-      <div class="flex-grid">
         <div class="flex-grid-item">
-          <img src="assets/image/NSX.jpg" alt="Honda NSX" />
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/r35.jpg" alt="NissanGTR" />
+            </figure>
+          </a>
         </div>
+
         <div class="flex-grid-item">
-          <img src="assets/image/LCA.jpg" alt="Lexus LCA500" />
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/r33.jpg" alt="NissanSkyline" />
+            </figure>
+          </a>
         </div>
+
         <div class="flex-grid-item">
-          <img src="assets/image/Cyberpunk.jpg" alt="Quadran" />
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/NSX.jpg" alt="HondaNSX" />
+            </figure>
+          </a>
         </div>
+
+        <div class="flex-grid-item">
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/LCA.jpg" alt="LexusLCA500" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="flex-grid-item">
+          <a href="#" class="portofolio-item">
+            <figure>
+              <img src="assets/image/Cyberpunk.jpg" alt="Quadran" />
+            </figure>
+          </a>
+        </div>
+      
       </div>
     </section>
+
+    <footer class="footer">Copyright &copy; 2021 - Aditya Putra Widaswara</footer>
   </body>
 </html>
